@@ -1,0 +1,61 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 600px;
+
+}
+
+
+
+
+
+
+/*Criando uma Classe para o logotipo */
+.logotipo {
+    background-color: blue;
+    width: 50px;  /*largura*/
+    height: 50px; /*alturaa*/
+    
+
+}
+
+header {
+    width:100%;
+    height:100px;
+    padding:10px 0 10px 0;
+    background-color: blue;
+    color: red; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+    font-family: 'Times New Roman';/*Nome da fonte*/
+    font-size: 50px; /*numero da fonte*/
+    font-weight: bold; /*negrito*/
+    float:left;       
+}
+
+
+main{ 
+    width:100%;
+    height: 600px;
+    text-align: center;
+    background-color: green;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: border;
+    float:left;
+
+}
+
+footer{
+    width:100%;
+    height:100px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 50px; /*numero da fonte*/
+    font-weight: bold; /*negrito*/
+    float:left;
+}
